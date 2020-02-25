@@ -33,11 +33,6 @@ body {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 /* Grouping content
    ========================================================================== */
 
@@ -253,7 +248,6 @@ textarea {
  */
 
 
-h1,
 h3,
 h4,
 p {
@@ -381,7 +375,7 @@ button {
   cursor: pointer;
 }
 
-h1,
+
 h3,
 h4 {
   font-size: inherit;
@@ -581,10 +575,6 @@ img {
   max-width: 28rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -637,14 +627,6 @@ img {
   padding-top: 0.5rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
 .absolute {
   position: absolute;
 }
@@ -671,10 +653,6 @@ img {
 
 .text-white {
   color: #fff;
-}
-
-.text-gray-700 {
-  color: #4a5568;
 }
 
 .text-red-600 {
@@ -707,10 +685,6 @@ img {
 
 .hover\:underline:hover {
   text-decoration: underline;
-}
-
-.w-8\/12 {
-  width: 66.666667%;
 }
 
 .w-full {
@@ -825,10 +799,6 @@ img {
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-6\/12 {
-    width: 50%;
   }
 
   .md\:grid-cols-2 {

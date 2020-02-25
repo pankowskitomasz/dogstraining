@@ -2,17 +2,10 @@ module.exports = function(grunt){
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
         concat:{
-            css:{
-                src:[
-                    "css/tailwind.min.css",
-                    "css/styles.css"
-                ],
-                dest: "css/styles.concat.css"
-            },
             js:{
                 src:[
                     "js/jquery-3.4.1.min.js",
-                    "js/main.min.js"
+                    "js/main.js"
                 ],
                 dest: "js/main.concat.js"
             }
@@ -27,7 +20,7 @@ module.exports = function(grunt){
         cssmin:{
             compress:{
                 files:{
-                    "css/styles.min.css":"<%= concat.css.dest %>"
+                    "css/styles.min.css":"css/tailwind.out.css"
                 }
             }
         }

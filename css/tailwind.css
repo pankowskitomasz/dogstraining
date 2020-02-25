@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+.footer-nav-item{
+    @apply m-2;
+}
+.footer-nav-item:hover{
+    @apply text-gray-400;
+}
+.footer-nav-item:focus{
+    @apply text-gray-600;
+}
+.form-btn{
+    @apply bg-green-400 text-white uppercase py-2 px-3 cursor-pointer mx-2 shadow;
+}
+.form-btn:hover{
+    @apply bg-green-700;
+}
+.form-btn:focus{
+    @apply bg-green-900;
+}
+.form-item{
+    @apply border border-yellow-400 p-2 mb-4 w-full shadow-md;
+}
+.form-item::placeholder{
+    @apply text-yellow-500;
+}
+.lead-green{
+    @apply text-green-500 font-bold;
+}
+.navbar-item{
+    @apply text-red-600 m-2;
+}
+.navbar-item:hover{
+    @apply text-red-400;
+}
+.navbar-item:focus{
+    @apply text-red-700;
+}
+.navbar-menu-right{
+    @apply w-full text-right py-3;
+}
+.navbar-toggler{
+    @apply float-right border border-red-600 px-2 text-red-600 rounded-md;
+}
