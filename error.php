@@ -36,8 +36,10 @@
             <button class="navbar-toggler block md:hidden text-xl">
                 <span class="fas fa-align-justify"></span>
             </button>
-            <div class="mt-8 bg-gray-900 md:bg-transparent md:shadow-none md:mt-0 text-md uppercase text-left md:text-right h-0 md:h-auto overflow-hidden font-bold navbar-collapse
-                transition-all duration-500">
+            <div class="mt-8 bg-gray-900 md:bg-transparent md:shadow-none md:mt-0 
+                text-md uppercase text-left md:text-right h-0 md:h-auto overflow-hidden 
+                font-bold navbar-collapse transition-all duration-500 navbar-collapse 
+                font-menu">
                 <a href="index.html"
                     class="block w-full md:inline md:w-auto navbar-item">
                     Home
@@ -104,8 +106,6 @@
             </small>
         </div>
     </footer>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/owl.carousel.min.js" defer></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 </html>

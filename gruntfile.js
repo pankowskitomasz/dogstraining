@@ -20,7 +20,7 @@ module.exports = function(grunt){
         cssmin:{
             compress:{
                 files:{
-                    "css/styles.min.css":"css/tailwind.out.css"
+                    "css/styles.css":"css/styles.min.css"
                 }
             }
         }
