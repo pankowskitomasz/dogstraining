@@ -6,8 +6,6 @@
         content="IE=Edge">
     <meta name="viewport" 
         content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">    
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/styles.min.css">
     <title>Dogs Training | Message sent</title>
